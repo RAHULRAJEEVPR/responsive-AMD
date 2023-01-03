@@ -1,0 +1,256 @@
+.navbar{
+    justify-content: unset;
+    
+}
+.bg-image1{
+    background-image: url(images/bgimg1.webp);
+
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.first-bg a{
+    
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    background-color:black;
+    
+    
+}
+.bg1-dialoge{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    
+  }
+  .bg1-dialoge2{
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+ 
+  }
+
+.row{
+    margin: 0;
+}
+.col-md-6{
+    margin: 0;
+}
+
+  .cpu-img-1{
+    width: 100%;
+  }
+.cpu1-txt{
+    font-size: x-large;
+    margin: 0;
+    font-weight: bold;
+}
+.cpu1-txt2{
+    font-size: small;
+    margin: 0;
+}
+.cpu1-btn{
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px solid;
+   
+    border: 2px solid;
+    width: 180px;
+    text-align: center;
+   
+}
+
+  .cpu-img-2{
+    width: 100%;
+  }
+  .cpu2-txt{
+    font-size: x-large;
+    margin: 0;
+    font-weight: bold;
+}
+.cpu2-txt2{
+    font-size: small;
+    margin: 0;
+}
+.cpu2-btn{
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px solid;
+  
+    border: 2px solid;
+    width: 180px;
+    text-align: center;
+   
+}
+
+  .cpu-img-3{
+    width: 100%;
+  }
+  .cpu3-txt{
+    font-size: x-large;
+    margin: 0;
+    font-weight: bold;
+}
+.cpu3-txt2{
+    font-size: small;
+    margin: 0;
+}
+.cpu3-btn{
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px solid;
+    border: 2px solid;
+    width: 180px;
+    text-align: center;
+   
+}
+.third{
+    margin-top: 6vh;
+}
+
+.bg-img3{
+    
+    background-image: url(images/bgimg2.webp);
+
+    height: 350px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ 
+}
+.bg3-box{
+    width: 48%;
+    height: 75%;
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 50%;
+    margin-top: 3%;
+  position: relative;
+   
+}
+.bg3-txt1{
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.bg4-1{
+    width: 100%;
+    background-color: lightgray;
+}
+.bg4-img1{
+    width: 100%;
+}
+.bg4-btn1{
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px solid;
+    border: 2px solid;
+    width: 180px;
+    text-align: center;
+   
+
+}
+.bg4-img2{
+    width: 100%;
+}
+.bg4-img2-btn1{
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-width: 2px solid;
+    border: 2px solid;
+    width: 180px;
+    text-align: center;
+}
+ .bg5{
+    background-image: url(images/bgimg5.webp);
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: auto;
+} 
+ .bg5-img1{
+    max-width: 100%;
+    height: auto;
+} 
+
+
+
+
+@media screen and (max-width:990px) {
+    
+    .bg3-box{
+        width: 80%;
+        height: 90%;
+        background: rgba(0, 0, 0, 0.7);
+        margin-left: 10%;
+        margin-top: 4%;
+        
+    }
+}
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer .container-fluid{
+    padding: 5% 1%;
+}
+.col-md-12 div{
+    width: 9%;
+}
+.col-md-12{
+    margin: 0;
+}
+.col-md-2 ul{
+    padding: 0;
+}
+.col-md-2 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(157,159,162);
+}
+.foot-list2 {
+    justify-content: center;
+text-align: center;
+font-size: small;
+color: rgb(157,159,162);
+}
+.copright {
+    color: rgb(157,159,162);
+    font-size: .8rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+@media screen and (max-width:998px) {
+    
+ .fot-list p,.fot-list li{
+    text-align: center;
+ }
+   .foot-list2 {
+ display: block;
+} 
+}
+
